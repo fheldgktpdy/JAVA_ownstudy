@@ -1,5 +1,5 @@
 package practice;
 
-public interface BarkablePredator {
+public interface BarkablePredator extends Barkable {
 
 }

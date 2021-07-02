@@ -1,6 +1,6 @@
 package practice;
 
-public class Tiger extends Animal implements Predator, Barkable{
+public class Tiger extends Predator implements Barkable{
 	public String getFood(){
 		return "apple";
 	}
@@ -8,4 +8,4 @@ public class Tiger extends Animal implements Predator, Barkable{
 	public void bark(){
 		System.out.println("æÓ»Ô");
 	}
-}
+}	
